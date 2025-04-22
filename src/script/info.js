@@ -25,7 +25,7 @@ export async function showModalInformation() {
       </ul>
       <p>Transformamos dados em <span>ações práticas</span> com:</p>
         <P><span>✔</span> Diagnóstico preciso do processo ou modus operandi</p>
-        <P><span>✔</span> Padronização das oeprações</p>
+        <P><span>✔</span> Padronização das operações</p>
         <P><span>✔</span> Sistemas personalizados para gerenciamento</p>
         <P><span>✔</span> Treinamentos operacionais e gerenciais</p>
         <P><span>✔</span> Digitalização de dados</p>
