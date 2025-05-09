@@ -12,35 +12,49 @@ export async function showModalInformation() {
   title.textContent = 'Sobre Nós';
   content.innerHTML = `
     <div class="contact-card">
-      <p>Na <span>FluxoClean</span>, acreditamos que <span>indústrias de pequeno e médio porte, prestadores de serviços e beneficiadoras</span> merecem operar com a eficiência das grandes empresas, mas sem a complexidade e os custos elevados.</p>
-      <h2>Nossa Missão</h2>
-      <p>Aumentar o <span>lucro líquido</span> dos nossos parceiros por meio da <span>análise inteligente, melhoria contínua e digitalização sob medida</span> dos seus processos operacionais e gerenciais.</p>
+      <p>Na <span>FluxoClean</span>, acreditamos que <span>indústrias de pequeno e médio porte, prestadores de serviços e beneficiadoras</span> que não tem Engenharia de Processo ou Analistas de Melhoria Contínua em seu time de trabalho merecem operar com a eficiência das grandes empresas, mas sem a complexidade e os custos elevados.</p>
+      
+      <h2>Nossos principais serviços incluem:</h2>
+      <ul>
+        <li><P>Análise de processos utilizando Kaizen, PDCA, FMEA e WCM</p></li>
+        <li><P>Implantação de melhoria contínua e padronização com redução de custos</p></li>
+        <li><P>Digitalização de processos por meio de aplicativos personalizados</p></li>
+        <li><P>Treinamentos operacionais e gerenciais voltados à eficiência e padronização</p></li>
+        <li><P>Desenvolvimento de software personalizado para prestadores de serviços</p></li>
+      </ul>
+
+      <h2>Missão</h2>
+      <p>Aumentar o <span>lucro líquido entregando performance, padronização e controle das operações e serviços</span> de nossos parceiros.</p>
+      
+      <h2>Visão</h2>
+      <p>Ser referência em <span>soluções acessíveis e personalizadas na melhoria de processos e digitalização de pequenas e médias empresas</span> na região de Belo Horizonte.</p>
+      
+      <h2>Valores</h2>
+      <ul>
+        <li><P><span>Verdade, Integridade, Honestidade, Ética e Transparência</span></p></li>
+        <li><P><span>Construção de valor em processos e serviços</span></p></li>
+        <li><P><span>Inovar, padronizar e digitalizar</span></p></li>
+      </ul>
+      
+      <h2>Atendemos especialmente</h2>
+      <ul>
+        <li><P>Pequenas e médias indústrias</p></li>
+        <li><P>Beneficiadoras de alimentos</p></li>
+        <li><P>Oficinas e prestadores de serviços</p></li>
+        <li><P>Empresas que não tem Engenharia / Analista de Processos</p></li>
+      </ul>
+
       <h2>O que fazemos</h2>
-      <p>Identificamos e <span>eliminamos desperdícios</span> que consomem até <span>20% do faturamento</span>, utilizando metodologias reconhecidas de classe mundial como:</p>
+      <p>Identificar e <span>eliminar ou mitigar</span> perdas que consomem até <span>20% do faturamento</span>, utilizando metodologias reconhecidas de classe mundial como:</p>
       <ul>
         <li><P><span>KAIZEN</span> (melhoria contínua)</p></li>
         <li><P><span>PDCA</span> (ciclo de otimização)</p></li>
-        <li><P><span>WCM</span> (World Class Manufacturing)</p></li>
-        <li><P><span>FMEA</span> (análise de falhas)</p></li>
+        <li><P><span>WCM</span> (excêlencia em manufatura)</p></li>
+        <li><P><span>FMEA</span> (análise de falhas e efeito)</p></li>
       </ul>
-      <p>Transformamos dados em <span>ações práticas</span> com:</p>
-        <P><span>✔</span> Diagnóstico preciso do processo ou modus operandi</p>
-        <P><span>✔</span> Padronização das operações</p>
-        <P><span>✔</span> Sistemas personalizados para gerenciamento</p>
-        <P><span>✔</span> Treinamentos operacionais e gerenciais</p>
-        <P><span>✔</span> Digitalização de dados</p>
-      <h2>Diferenciais</h2>
-      <P><span>Foco no custo unitário</span>: Redução dos custos do Processo para menor custo do Produto</p>
-      <P><span>Soluções adaptáveis</span>: Ferramentas feitas para a realidade da sua operação</p>
-      <P><span>Resultados mensuráveis</span>: Acompanhamos indicadores de desempenho reais</p>
-      <h2>Atendemos</h2>
-      <P><span>▸</span> Pequenas e médias indústrias</p>
-      <P><span>▸</span> Beneficiadoras de alimentos</p>
-      <P><span>▸</span> Oficinas e prestadores de serviços</p>
       <h2>Atuação</h2>
       <P><span>Belo Horizonte/MG e região</span> (com possibilidade de atuação em todo o estado)</p>
-      <h2>Transforme perdas em lucro</h2>
-      <P>Acesse nossos canais de comunicação e solicite uma <span>avaliação gratuita</span>.</p>
+      <P>Acesse nossos canais de comunicação e solicite uma <span>avaliação</span>.</p>
         <img src="./src/img/logo-header.svg" alt="Logo da FluxoClean">            
     </div>
   `;
@@ -98,9 +112,7 @@ export async function showModalContact() {
         </a>
         <span>— Possibilidade em todo estado de MG</span>
       </div>
-      <h2>Transforme perdas em lucro</h2>
-      <P>Acesse nossos canais de comunicação e solicite uma <span>avaliação gratuita</span>.</p>
-        <img src="./src/img/logo-header.svg" alt="Logo da FluxoClean">             
+      <img src="./src/img/logo-header.svg" alt="Logo da FluxoClean">             
     </div>
   `;
 
@@ -196,32 +208,6 @@ export async function showModalLogin() {
     dataLogin.password = password;
   });
 }
-/*
-    try {
-      const userData = await userLogin(dataLogin);
-      if (userData.redirectUrl) {
-        window.location.href = userData.redirectUrl;
-      } else if (userData.status === 201) {
-        const level = userData.level;
-        showModalAlert('Next', userData.title, userData.msg, async () => {
-          await openSession(level);
-          window.location.href = './client.html';
-        });
-      } else if (userData.status === 400 || userData.status === 401) {
-        showModalAlert('Alert', userData.title, userData.msg, closeModal);
-        return;
-      }
-    } catch (error) {
-      showModalAlert('Alert', 'Erro de Conexão!', error, closeModal);
-      return;
-    }
-  });
-
-  const modalRegister = document.getElementById('register');
-  modalRegister.addEventListener('click', () => {
-    //showModalRegister();
-  });
-*/
 
 export async function showModalCommerce() {
   const modal = document.getElementById('modal-information');
