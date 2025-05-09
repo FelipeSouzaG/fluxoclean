@@ -206,6 +206,14 @@ export async function showModalLogin() {
 
     dataLogin.email = email;
     dataLogin.password = password;
+
+    showModalAlert(
+      'Alert',
+      'Não encontrado!',
+      'Entre em contato conosco e inicie uma parceiria.',
+      closeModal
+    );
+    return;
   });
 }
 
