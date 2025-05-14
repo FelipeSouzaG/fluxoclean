@@ -100,7 +100,7 @@ export async function showModalContact() {
         <span>— Felipe Galvão</span>
       </div>
       <div class="contact-item">
-        <a href="https://wa.me/5531995454632?text=Olá%20FluxoClean!%20Gostaria%20de%20descrever%20meu%20processo%20produtivo%20e%20as%20etapas%20onde%20ocorrem%20as%20maiores%20perdas%20ou%20ineficiências." target="_blank">
+        <a href="https://wa.me/5531983330332?text=Olá%20FluxoClean!%20Gostaria%20de%20descrever%20meu%20processo%20produtivo%20e%20as%20etapas%20onde%20ocorrem%20as%20maiores%20perdas%20ou%20ineficiências." target="_blank">
           (31)99545-4632
         </a>
         <span>— WhatsApp</span>
