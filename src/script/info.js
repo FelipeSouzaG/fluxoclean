@@ -86,7 +86,9 @@ export async function showModalContact() {
       
       <h2>Instituicional</h2>
       <div class="contact-item">
-        <a href="mailto:contato@fluxoclean.com.br?subject=Resumo%20do%20processo%20e%20principais%20perdas&body=Olá,%20meu%20nome%20é%20...%20Gostaria%20de%20compartilhar%20um%20resumo%20do%20meu%20processo%20de%20...%20e%20as%20etapas%20onde%20acredito%20que%20ocorrem%20as%20maiores%20perdas.%20Segue%20abaixo:%0A%0A- Resumo%20do%20processo:%20...%0A- Etapa%201:%0A- Etapa%202:%0A- Etapa%203:%0A%0A- Principais%20perdas%20identificadas:%20...%0A%0AAguardo%20seu%20retorno%20para%20avançarmos%20na%20melhoria%20do%20meu%20processo." target="_blank">
+        <a href="mailto:contato@fluxoclean.com.br?subject=Resumo%20do%20processo%20e%20principais%20perdas&body=Olá,%20meu%20nome%20é%20...%20Gostaria%20de%20compartilhar%20um%20resumo%20do%20meu%20processo%20de%20...%20e%20as%20etapas%20onde%20acredito%20que%20ocorrem%20as%20maiores%20perdas.%20Segue%20abaixo:%0A%0A- Resumo%20do%20processo:%20...%0A- Etapa%201:%0A- Etapa%202:%0A- Etapa%203:%0A%0A- Principais%20perdas%20identificadas:%20...%0A%0AAguardo%20seu%20retorno%20para%20avançarmos%20na%20melhoria%20do%20meu%20processo." 
+           onclick="return gtag_report_conversion('mailto:contato@fluxoclean.com.br')" 
+           target="_blank">
           contato@fluxoclean.com.br
         </a>
         <span>— Dúvidas e esclarecimentos</span>
@@ -100,7 +102,9 @@ export async function showModalContact() {
         <span>— Felipe Galvão</span>
       </div>
       <div class="contact-item">
-        <a href="https://wa.me/5531983330332?text=Olá%20FluxoClean!%20Vi%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20diagnóstico%20ou%20conversar%20sobre%20meu%20processo." target="_blank">
+        <a href="https://wa.me/5531983330332?text=Olá%20FluxoClean!%20Vi%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20diagnóstico%20ou%20conversar%20sobre%20meu%20processo." 
+           onclick="return gtag_report_conversion('https://wa.me/5531983330332?text=Olá%20FluxoClean!%20Vi%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20diagnóstico%20ou%20conversar%20sobre%20meu%20processo.')" 
+           target="_blank">
           (31)99545-4632
         </a>
         <span>— WhatsApp</span>
