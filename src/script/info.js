@@ -237,7 +237,7 @@ export async function showModalCommerce() {
       <P><span>✔</span> Visita técnica ou análise remota</p>
       <P><span>✔</span> Mapa de problemas identificados</p>
       <P><span>✔</span> Plano de ação simplificado</p>
-      <P><span>R$ 1000,00 / avaliação</span></p>
+      <P><span>Avaliação Única</span></p>
 
       <h2>2- Melhoria Contínua</h2>
       <P><span>✔</span> Mapeamento completo do processo</p>
@@ -245,7 +245,6 @@ export async function showModalCommerce() {
       <P><span>✔</span> Plano de Melhoria Contínua</p>
       <P><span>✔</span> Treinamento do time responsável</p>
       <P><span>✔</span> Implantação do WCM junto ao time</p>
-      <P><span>R$ 2000,00 / mês</span></p>
       <P><span>Visitas mensais do analista</span></p>
 
       <h2>3- Melhoria Contínua + Controle de dados</h2>
@@ -255,10 +254,9 @@ export async function showModalCommerce() {
       <P><span>✔</span> Treinamento do time responsável</p>
       <P><span>✔</span> Implantação do WCM junto ao time</p>
       <P><span>✔</span> Controles de dados + Gráficos de performance</p>
-      <P><span>R$ 2600,00 / mês</span></p>
       <P><span>Visitas quinzenais do analista</span></p>
 
-      <i>Valores podem alterar a depender do tipo de processo</i>
+      <i>Valores dos serviços a combinar conforme processo</i>
       
       <img src="./src/img/logo-header.svg" alt="Logo da FluxoClean">             
     </div>
